@@ -61,9 +61,9 @@ sets,unordered collection of data with no duplicate elements
 %g,floating point format. Uses lowarcase exponential format if exponent is less than -4 or not less than precision; decimal format otherwise
 %G,floating point format. Uses uppercase exponential format if exponent is less than -4 or not less than precision; decimal format otherwize
 %c,single character (accepts integer or single character string
-%r,
-%s,
-%%,
+%r,string - converts any python object using repr()
+%s,string - converts any Python object using str()
+%%,no argument is converted - % in the result
 +,addition
 -,subtraction
 *,multiplication
@@ -78,15 +78,15 @@ sets,unordered collection of data with no duplicate elements
 ==,equal to
 !=,not equal to
 <>,not equal to (deprecated)
-( ),
-[ ],
-{ },
-@,
-,,
-:,
-.,
+( ),binding or tuple displa
+[ ],list display
+{ },dictionary display
+@,class function and method decorator
+,,tuple separator
+:,starts the codeblock within a function
+.,separates integer from fractional part in float
 =,assignment
-,,
+;,separates multiple statements on a single line
 +=,add and assign
 -=,subtract and assign
 *=,multiply and assign
