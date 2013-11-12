@@ -82,7 +82,7 @@ sets,unordered collection of data with no duplicate elements
 [ ],list display
 { },dictionary display
 @,class function and method decorator
-,,tuple separator
+comma,tuple separator
 :,starts the codeblock within a function
 .,separates integer from fractional part in float
 =,assignment
