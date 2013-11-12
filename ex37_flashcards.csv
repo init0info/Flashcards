@@ -1,0 +1,102 @@
+and,true if both sides are true
+del,delete objects from sequence
+from,import specific var class or function of a module
+not,negates a boolean
+while,conditional loop
+as,give imported module an alias
+elif,nested if
+global,access to global var from function
+or,true if either operand is true
+with,handle unmanaged resource, ensure cleanup
+assert,proceed if condition is met
+else,run branch if condition statement not true
+if,conditional branching
+pass,do nothing
+yield,exit generator and return a value
+break,end loop
+except,catch exception
+import,load a module
+print,output to terminal
+class,user defined object collection
+exec,dinamically execute python code
+in,true if variable found in a range
+raise,user defined exception
+continue,break iteration not cycle
+finally,execute at the end of try-catch, always
+is,true if operands are the same object
+return,define a value a function returns
+def,define a new function
+for,iterative loop
+lambda,nameless function
+try,try an action that could raise an exception
+True,true bool value
+False,false bool value
+None,nonexistent not known or empty
+strings,char sequence inside single double or tripple quotes
+numbers,discreet number of objects
+floats,real numbers measuring continuous quantities
+tuples,imutable sequence can contain mixed data type
+lists,mutable sequence can contain mixed data type
+sets,unordered collection of data with no duplicate elements
+\\,backslash
+\',single quote
+\",double quote
+\a,ASCII Bell
+\b,ASCII Backspace
+\f,ASCII Formfeed
+\n,ASCII Linefeed
+\r,ASCII Carriage Return
+\t,ASCII Horizontal Tab
+\v,ASCII Vertical Tab
+%d,signed integer decimal
+%i,signed integer decimal
+%o,signed octal value
+%u,signed integer decimal (deprecated)
+%x,signed hexadecimal (lowercase)
+%X,signed hexadecimal (uppercase)
+%e,floating point exponential format lowercase
+%E,floating point exponential format uppercase
+%f,floating point decimal format
+%F,floating point decimal format
+%g,floating point format. Uses lowarcase exponential format if exponent is less than -4 or not less than precision; decimal format otherwise
+%G,floating point format. Uses uppercase exponential format if exponent is less than -4 or not less than precision; decimal format otherwize
+%c,single character (accepts integer or single character string
+%r,
+%s,
+%%,
++,addition
+-,subtraction
+*,multiplication
+**,exponent
+/,division
+//,integer division
+%,modulus - returns remainder
+<,less
+>,more
+<=,less or equal to
+>=,more or equal to
+==,equal to
+!=,not equal to
+<>,not equal to (deprecated)
+( ),
+[ ],
+{ },
+@,
+,,
+:,
+.,
+=,assignment
+,,
++=,add and assign
+-=,subtract and assign
+*=,multiply and assign
+/=,divide and assign
+//=,integer divide and assign
+%=,modulus and assign
+**=,raise to the power and assign
+&,binary AND
+|,binary OR
+^,binary XOR (copies the bit if it is set in one operand and not both
+~,binary Ones Complement, unary, flips bits
+<<,binary left shift
+>>,binary right shift
