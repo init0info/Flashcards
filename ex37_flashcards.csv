@@ -1,4 +1,4 @@
-and,true if both sides are true
+and,true if both are true
 del,delete objects from sequence
 from,import specific var class or function of a module
 not,negates a boolean
